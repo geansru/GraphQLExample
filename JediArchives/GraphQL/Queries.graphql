@@ -1,0 +1,47 @@
+fragment ListFilmFragment on Film {
+  id
+  title
+  releaseDate
+}
+
+query AllFilms {
+  allFilms {
+    films{
+      ...ListFilmFragment
+    }
+  }
+}
+
+query FilmDetail($id: ID) {
+  film(id: $id) {
+    title
+    episodeID
+    releaseDate
+    director
+    characterConnection(first: 10) {
+      characters {
+        id
+        name
+      }
+    }
+  }
+}
+
+query CharacterDetail($id: ID) {
+  person(id: $id) {
+    name
+    birthYear
+    eyeColor
+    gender
+    hairColor
+    skinColor
+    homeworld {
+      name
+    }
+    filmConnection(first: 10) {
+      films {
+        ...ListFilmFragment
+      }
+    }
+  }
+}

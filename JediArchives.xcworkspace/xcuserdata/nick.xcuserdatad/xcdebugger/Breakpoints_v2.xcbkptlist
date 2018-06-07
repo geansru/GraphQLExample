@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JediArchives/Films/FilmsViewController.swift"
+            timestampString = "536733751.133885"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loadFilms()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Apollo.GraphQLResult&lt;JediArchives.AllFilmsQuery.Data&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JediArchives.FilmsViewController.loadFilms() -&gt; ()"
+                  moduleName = "JediArchives"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nick/Desktop/WIP/rayv/Gettings%20Started%20with%20GraphQL%20on%20iOS/JediArchives/JediArchives/Films/FilmsViewController.swift"
+                  timestampString = "536647263.451472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;JediArchives.AllFilmsQuery.Data.AllFilm.Film&gt;) -&gt; Swift.Optional&lt;JediArchives.AllFilmsQuery.Data.AllFilm.Film&gt; in closure #1 (Swift.Optional&lt;Apollo.GraphQLResult&lt;JediArchives.AllFilmsQuery.Data&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JediArchives.FilmsViewController.loadFilms() -&gt; ()"
+                  moduleName = "JediArchives"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nick/Desktop/WIP/rayv/Gettings%20Started%20with%20GraphQL%20on%20iOS/JediArchives/JediArchives/Films/FilmsViewController.swift"
+                  timestampString = "536647263.454563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
